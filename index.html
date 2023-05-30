@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="3d, photo, gallery, advanced, javascript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/sr3d.prod.min.css">
+    <title>3D Santa Run</title>
+    <script src="js/three.min.js"></script>
+    <script src="js/SkeletonUtils.min.js"></script>
+    <script src="js/DRACOLoader.min.js"></script>
+    <script src="js/GLTFLoader.min.js"></script>
+    <script src="js/anime.min.js"></script>
+    <script src="js/sr3d.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Main -->
+    <div id="wrapper">
+      <!-- Start gallery-->
+      <div class="rs-container">
+        <div class="rs-sr3d">
+
+        </div>
+      </div>
+      <!-- end gallery-->
+    </div>
+    <!-- end main wrapper-->
+    <script type="text/javascript">
+      document.body.onload = function() {
+      
+        "use strict";
+      
+        var el = document.querySelector('.rs-sr3d');
+        var sr3d = new SantaRun(el);
+      }
+    </script>
+  </body>
+</html>

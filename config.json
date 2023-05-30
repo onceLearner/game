@@ -1,0 +1,21 @@
+{
+  "general":{
+    "useHelpPanel":true,
+    "useCreditPanel":true,
+    "useBackgroundMusic":true,
+    "backgroundVolume":0.45
+  },
+  "strings":{
+    "APP_TITLE":"3D Santa Run",
+    "APP_INFO":"Hyper Casual 3D Game",
+    "NEW_GAME":"NEW GAME",
+    "HELP":"HELP",
+    "HELP_TEXT":"Help text",
+    "CREDIT":"CREDITS",
+    "CREDIT_TEXT":"Music and sound effects from opengameart.org"
+  },
+  "data":{
+    "level":[
+    ]
+  }
+}
